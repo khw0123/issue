@@ -1,46 +1,69 @@
-<!doctype html>
-
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>HTML Example</title>
-  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
-</head>
-<body>
-  <section class="center">
-    <aside class="sidebar"></aside>
-    
-    <section class="contents">
-      <!-- page will be include here -->
-      <section id="page" class="page">
-        <section id="about">
-          <section class="frame">
-            <h2><b>HELLO</b>WORLD</h2>
-            
-            <div class="cat">
-              <div class="picture">
-                <img src="images/mew.png" alt="Mew">
-              </div>
-              <small>Mew</small>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img
+          src="img/KakaoTalk_20241018_154012248.png"
+          alt=""
+          height="80"
+          style="margin-left: 30px"
+        />
+      </div>
+    </div>
+    <hr />
+    <div class="grid-container">
+      <div class="grid">
+        <div class="grid-item g1" onclick="window.open('movie.html')">
+          <div class="long-img r"></div>
+          <div class="long-title r"><h1>시대별 인기 영화 모음</h1></div>
+          <div class="long-description r">
+            <p>
+              영화는 단순한 오락을 넘어, 시대의 문화와 정서를 반영하며
+              사람들에게 깊은 감동과 영감을 선사해 왔다. 각 시대를 대표하는
+              영화들은 당시 사회의 가치관, 기술적 발전, 그리고 예술적 성취를
+              담아내며 관객들에게...
+            </p>
+          </div>
+        </div>
+        <div class="grid-item g2" onclick="window.open('deep.html')">
+          <div class="short-img r img2"></div>
+          <div class="short-group">
+            <div class="short-title r">
+              <h1>딥페이크, AI 기술의 두 얼굴</h1>
             </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/siesta.png" alt="Siesta">
-              </div>
-              <small>Siesta</small>
+            <div class="short-description r">
+              딥페이크(deepfake)는 인공지능(AI)을 활용해 사람의 얼굴, 목소리,
+              행동 등을 조작하여 실제와 구별하기 어려운 콘텐츠를 생성하는
+              기술입니다. 영화, 게임 등 다양한 분야에서 유용하게 활용될 수 있는
+              가능성을 가진 기술이지만, 최근 몇 년간 악용 사례가 급증하며 심각한
+              사회적 문제로 떠오르고 있습니다....
             </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/tiger.png" alt="Tiger">
-              </div>
-              <small>Tiger</small>
+          </div>
+        </div>
+        <div class="grid-item g3" onclick="window.open('word.html')">
+          <div class="short-img r img3"></div>
+          <div class="short-group">
+            <div class="short-title r">
+              <h1>현대 사회의 문해력 문제와 해결책</h1>
             </div>
-          </section>
-        </section>
-      </section>
-    </section>
-  </section>
-</body>
+            <div class="short-description r">
+              현대 사회는 정보화 시대라 불릴 만큼 방대한 양의 정보를 접하며
+              살아갑니다. 그러나 정보의 양이 늘어나는 만큼 이를 올바르게
+              해석하고 활용하는 능력, 즉 문해력의 중요성이 점점 커지고 있습니다.
+              문해력은 단순히 글을 읽고 이해하는 것을 넘어, 맥락을 파악하고
+              비판적으로 사고하며, 올바른 의사소통을 가능하게 하는 기초적인
+              능력입니다....
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
